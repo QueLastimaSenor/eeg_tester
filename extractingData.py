@@ -16,8 +16,7 @@ def extraction(dirPath, classPath, duration, Create = 0, Segments = 2):
     opened_drunk_images = os.listdir(image_directory)
     for i, name in enumerate(opened_drunk_images):
         data = np.loadtxt(image_directory + name)
-        # plt.plot(np.linspace(0, len(data) / 512, len(data)), data)
-        # plt.show()
+        # plt.plot(np.linspace(0, len(data) / 512, len(data)), data) 
         # fft = np.fft.fft(data)
         # freqs = np.linspace(0, Fs, len(fft))
         # for i, item in enumerate(freqs):
